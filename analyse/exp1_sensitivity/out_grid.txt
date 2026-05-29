@@ -1,0 +1,43 @@
+Device: cuda
+Body:6 Cloth:17
+  [1/36] dim=8 heads=1 hidden=32  R2=0.8251  MSE=0.6196  Spearman=0.8786
+  [2/36] dim=8 heads=1 hidden=64  R2=0.7963  MSE=0.7215  Spearman=0.8785
+  [3/36] dim=8 heads=1 hidden=128  R2=0.8189  MSE=0.6417  Spearman=0.8755
+  [4/36] dim=8 heads=2 hidden=32  R2=0.8175  MSE=0.6466  Spearman=0.8741
+  [5/36] dim=8 heads=2 hidden=64  R2=0.8235  MSE=0.6254  Spearman=0.8735
+  [6/36] dim=8 heads=2 hidden=128  R2=0.8211  MSE=0.6338  Spearman=0.8768
+  [7/36] dim=8 heads=4 hidden=32  R2=0.8218  MSE=0.6315  Spearman=0.8748
+  [8/36] dim=8 heads=4 hidden=64  R2=0.7966  MSE=0.7205  Spearman=0.8754
+  [9/36] dim=8 heads=4 hidden=128  R2=0.7994  MSE=0.7106  Spearman=0.8735
+  [10/36] dim=16 heads=1 hidden=32  R2=0.8160  MSE=0.6518  Spearman=0.8779
+  [11/36] dim=16 heads=1 hidden=64  R2=0.8142  MSE=0.6581  Spearman=0.8697
+  [12/36] dim=16 heads=1 hidden=128  R2=0.8160  MSE=0.6519  Spearman=0.8756
+  [13/36] dim=16 heads=2 hidden=32  R2=0.8198  MSE=0.6382  Spearman=0.8703
+  [14/36] dim=16 heads=2 hidden=64  R2=0.8146  MSE=0.6570  Spearman=0.8764
+  [15/36] dim=16 heads=2 hidden=128  R2=0.7940  MSE=0.7298  Spearman=0.8666
+  [16/36] dim=16 heads=4 hidden=32  R2=0.8097  MSE=0.6742  Spearman=0.8690
+  [17/36] dim=16 heads=4 hidden=64  R2=0.8151  MSE=0.6550  Spearman=0.8735
+  [18/36] dim=16 heads=4 hidden=128  R2=0.7959  MSE=0.7231  Spearman=0.8648
+  [19/36] dim=32 heads=1 hidden=32  R2=0.8163  MSE=0.6507  Spearman=0.8686
+  [20/36] dim=32 heads=1 hidden=64  R2=0.8165  MSE=0.6500  Spearman=0.8695
+  [21/36] dim=32 heads=1 hidden=128  R2=0.8030  MSE=0.6981  Spearman=0.8730
+  [22/36] dim=32 heads=2 hidden=32  R2=0.8111  MSE=0.6694  Spearman=0.8699
+  [23/36] dim=32 heads=2 hidden=64  R2=0.8027  MSE=0.6989  Spearman=0.8623
+  [24/36] dim=32 heads=2 hidden=128  R2=0.8104  MSE=0.6716  Spearman=0.8725
+  [25/36] dim=32 heads=4 hidden=32  R2=0.8080  MSE=0.6802  Spearman=0.8673
+  [26/36] dim=32 heads=4 hidden=64  R2=0.8064  MSE=0.6858  Spearman=0.8772
+  [27/36] dim=32 heads=4 hidden=128  R2=0.7974  MSE=0.7176  Spearman=0.8683
+  [28/36] dim=64 heads=1 hidden=32  R2=0.8110  MSE=0.6696  Spearman=0.8691
+  [29/36] dim=64 heads=1 hidden=64  R2=0.8036  MSE=0.6957  Spearman=0.8730
+  [30/36] dim=64 heads=1 hidden=128  R2=0.8163  MSE=0.6509  Spearman=0.8756
+  [31/36] dim=64 heads=2 hidden=32  R2=0.8233  MSE=0.6259  Spearman=0.8753
+  [32/36] dim=64 heads=2 hidden=64  R2=0.8089  MSE=0.6772  Spearman=0.8705
+  [33/36] dim=64 heads=2 hidden=128  R2=0.8022  MSE=0.7009  Spearman=0.8665
+  [34/36] dim=64 heads=4 hidden=32  R2=0.8086  MSE=0.6780  Spearman=0.8662
+  [35/36] dim=64 heads=4 hidden=64  R2=0.8027  MSE=0.6990  Spearman=0.8683
+  [36/36] dim=64 heads=4 hidden=128  R2=0.8055  MSE=0.6890  Spearman=0.8632
+
+BEST grid: dim=8 heads=1 hidden=32 R2=0.8251 Spearman=0.8786
+Grid(16,1,64): R2=0.8142 Spearman=0.8697
+BENCHMARK: R2=0.8258 Spearman=0.8793
+Done.

@@ -1,0 +1,51 @@
+﻿Body_Feature,Cloth_Feature,Attention_Weight
+Across Shoulder,Cloth Category_summer,0.19241824746131897
+Bust,Cloth Category_coat,0.1710997372865677
+VHI,Torso - Waist,0.1436714380979538
+Bust,Cloth Category_summer,0.13993926346302032
+Low Hip,Cloth Category_shirt,0.12959834933280945
+Low Hip,Cloth Category_summer,0.12839429080486298
+Bust,Bottom Saturation,0.12750475108623505
+Inseam,Sil - Hip,0.12659873068332672
+Low Hip,Top Value,0.12171391397714615
+VHI,Sil - Waist,0.12140882760286331
+Waist,Top Hue,0.1193302720785141
+Inseam,Cloth Category_coat,0.11489754170179367
+Across Shoulder,Cloth Category_coat,0.11406785994768143
+VHI,Cloth Category_shirt,0.11290990561246872
+Waist,Bottom Hue,0.10910944640636444
+Low Hip,Torso - Waist,0.10531159490346909
+Waist,Cloth Category_shirt,0.095615915954113
+Inseam,Cloth Category_summer,0.09517823159694672
+Waist,Bottom Value,0.09019684791564941
+Bust,Top Saturation,0.08783213049173355
+Low Hip,Sil - Waist,0.08755610883235931
+Waist,Hem,0.08344215899705887
+Inseam,Torso - Bust,0.08268836885690689
+Across Shoulder,Hem,0.08227552473545074
+Across Shoulder,Sil - Hip,0.0777527466416359
+Bust,Bottom Hue,0.07583488523960114
+Bust,Cloth Category_shirt,0.0711422935128212
+Across Shoulder,Top Saturation,0.07041489332914352
+Bust,Shoulder,0.06976988166570663
+Inseam,Cloth Category_shirt,0.06899472326040268
+Across Shoulder,Bottom Hue,0.06827862560749054
+Low Hip,Torso - Hip,0.06743069738149643
+VHI,Cloth Category_coat,0.06682563573122025
+Inseam,Torso - Waist,0.06471861898899078
+Waist,Sil - Hip,0.0636453703045845
+Waist,Cloth Category_coat,0.060971081256866455
+Low Hip,Sil - Hip,0.060784317553043365
+VHI,Torso - Hip,0.059383515268564224
+Inseam,Shoulder,0.05874868482351303
+VHI,Bottom Hue,0.058156490325927734
+Across Shoulder,Cloth Category_shirt,0.05800667405128479
+Inseam,Torso - Hip,0.05737427994608879
+Bust,Sil - Bust,0.055512551218271255
+Waist,Bottom Saturation,0.05483342707157135
+Inseam,Sil - Waist,0.054652221500873566
+Low Hip,Cloth Category_coat,0.054456472396850586
+VHI,Cloth Category_summer,0.05362352728843689
+Across Shoulder,Torso - Waist,0.05242052301764488
+VHI,Top Hue,0.05153300240635872
+VHI,Sil - Hip,0.05039230361580849

@@ -1,0 +1,13 @@
+Device: cuda
+Body:6 Cloth:17
+  V2_NoAttn(35ep)  R2=0.8119  MSE=0.6664  Spearman=0.8741
+  V3_Body2Cloth(25ep)  R2=0.8111  MSE=0.6694  Spearman=0.8670
+  V4_Cloth2Body(25ep)  R2=0.8156  MSE=0.6531  Spearman=0.8689
+
+FINAL:
+                  Model       R2      MSE  Spearman
+              V2_NoAttn 0.811897 0.666403  0.874095
+          V3_Body2Cloth 0.811063 0.669361  0.866978
+          V4_Cloth2Body 0.815650 0.653109  0.868906
+V1_Full(Ours=Benchmark) 0.825800 0.617300  0.879300
+Done.

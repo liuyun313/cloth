@@ -4,25 +4,25 @@
 
 ## 第一步：配置环境
 
-`bash
+```
 conda create -n cloth python=3.10 -y
 conda activate cloth
 pip install -r requirements.txt
-`
+```
 
 ## 第二步：特征提取
 
-`bash
+```
 python feature_extract.py
-`
+```
 
 处理原始数据，生成 train_df.csv（含特征和标签）以及 test_df.csv（含特征，无标签）。
 
 ## 第三步：模型训练
 
-`bash
+```
 python train.py
-`
+```
 
 - 将 train_df.csv 按 80%/10%/10% 划分为训练集/验证集/测试集
 - 保存最优模型 best_model.pth
@@ -32,21 +32,21 @@ python train.py
 
 ## 第四步：外部推理
 
-`bash
+```
 python test.py
-`
+```
 
 加载 best_model.pth，对 test_df.csv 进行预测，结果保存到 test_df_with_predictions.csv。
 
 ## 第五步：可视化与分析
 
-`bash
+```
 python plot_scatter.py               # 预测 vs 真实散点图
 python distribution_comparison.py    # KDE 密度分布对比图
 python attention_analysis.py         # 注意力权重热力图
 python diff.py                       # 子组评分布差异分析
 python U-test.py                     # 统计显著性检验
-`
+```
 
 ## 文件说明
 

@@ -4,7 +4,7 @@
 
 ## 第一步：配置环境
 
-`ash
+`bash
 conda create -n cloth python=3.10 -y
 conda activate cloth
 pip install -r requirements.txt
@@ -12,7 +12,7 @@ pip install -r requirements.txt
 
 ## 第二步：特征提取
 
-`ash
+`bash
 python feature_extract.py
 `
 
@@ -20,7 +20,7 @@ python feature_extract.py
 
 ## 第三步：模型训练
 
-`ash
+`bash
 python train.py
 `
 
@@ -32,7 +32,7 @@ python train.py
 
 ## 第四步：外部推理
 
-`ash
+`bash
 python test.py
 `
 
@@ -40,7 +40,7 @@ python test.py
 
 ## 第五步：可视化与分析
 
-`ash
+`bash
 python plot_scatter.py               # 预测 vs 真实散点图
 python distribution_comparison.py    # KDE 密度分布对比图
 python attention_analysis.py         # 注意力权重热力图
